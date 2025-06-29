@@ -1265,9 +1265,4 @@ nav a {
   margin: 5px 0;
 }
 
-  .hero {
-    background-image: url('imagens/sala.png.jpg'); /* mostra só a imagem do meio */
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-  }
+

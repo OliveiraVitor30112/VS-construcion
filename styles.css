@@ -1041,3 +1041,40 @@ nav ul {
 }
 
 }
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.logo img {
+  height: 40px;
+  width: auto;
+  max-width: 150px;
+}
+
+/* Responsividade para celular */
+@media (max-width: 768px) {
+  .header {
+    flex-direction: row;
+    padding: 10px;
+  }
+
+  .logo img {
+    height: 30px;
+    max-width: 120px;
+  }
+
+  .nav ul {
+    display: flex;
+    gap: 15px;
+    list-style: none;
+    padding: 0;
+  }
+
+  .nav li a {
+    font-size: 14px;
+  }
+}

@@ -1249,18 +1249,3 @@ body {
   /* Aqui vão as regras para celular */
 }
 
-header .logo img {
-  width: 120px; /* ou outro valor menor */
-  height: auto;
-  object-fit: contain;
-}
-
-nav {
-  display: flex;
-  flex-direction: column; /* Isso ajuda a empilhar os itens no celular */
-  align-items: center;
-}
-
-nav a {
-  margin: 5px 0;
-}
